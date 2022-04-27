@@ -5,7 +5,7 @@
 }
 
 html {
-  background: yellow;
+  background: #E2E8F0;
 }
 
 .header {
@@ -15,7 +15,7 @@ html {
 h1,
 .card {
   border: 1px solid;
-  background: white;
+  background: #CBD5E1;
 }
 
 h1 {
@@ -24,9 +24,12 @@ h1 {
   margin: 50px;
 }
 
+
+
 .card {
   padding: 15px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .cards {
@@ -35,6 +38,61 @@ h1 {
   margin-right: 50px;
   margin-bottom: 50px;
   gap: 20px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.card-text {
+  margin: 10px 0;
+}
+
+.card-text ul {
+  list-style-type: none;
+}
+
+.card-text li {
+  padding-top: 5px;
+}
+
+@media (min-width: 576px) {
+  body {
+    background: blue;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: green;
+  }
+
+  .card {
+    text-align: inherit;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card img {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background: pink;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: green;
+  }
 }
 
 @media (min-width: 1440px) {
