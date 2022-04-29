@@ -63,7 +63,6 @@ h1 {
   .card {
     text-align: inherit;
     display: flex;
-    justify-content: space-evenly;
   }
 
   .card img {
