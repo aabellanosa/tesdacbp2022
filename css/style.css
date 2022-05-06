@@ -38,6 +38,10 @@ h1 {
   border-radius: 10px;
 }
 
+.passer {
+  outline: 5px solid gold;
+}
+
 .cards {
   display: grid;
   margin-left: 50px;
