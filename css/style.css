@@ -66,6 +66,9 @@ h1 {
   padding-top: 5px;
 }
 
+.dim {
+  opacity: .2;
+}
 
 @media (min-width: 768px) {
   .card {
