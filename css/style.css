@@ -39,11 +39,11 @@ h1 {
 }
 
 .passer {
-  outline: 5px solid gold;
+  border: 5px solid gold;
 }
 
 .npasser {
-  outline: 5px solid #91a8c1;
+  border: 5px solid #91a8c1;
 }
 
 .cards {
