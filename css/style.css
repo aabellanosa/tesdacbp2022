@@ -42,6 +42,10 @@ h1 {
   outline: 5px solid gold;
 }
 
+.npasser {
+  outline: 5px solid #91a8c1;
+}
+
 .cards {
   display: grid;
   margin-left: 50px;
